@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aid Program - The Underwater Files</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>The Underwater Files</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aid_program.html">Aid Program</a></li>
+          <li><a href="our_team.html">Our Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="aid-program">
+      <h2>Aid Program</h2>
+      <p>Information about the aid program goes here.</p>
+    </section>
+
+    <section id="subscription-form">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form id="subscriptionForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="validateAndRegister()">Subscribe</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- JavaScript Link -->
+  <script src="subscription.js"></script>
+</body>
+</html>
