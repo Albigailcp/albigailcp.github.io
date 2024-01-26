@@ -28,9 +28,6 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="Other pages/aid_program.html">Aid Program</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="Other pages/our_team.html">Our Team</a>
               </li>
               <li>
@@ -48,8 +45,31 @@
       <p>This website is dedicated to exploring marine life and promoting its protection. Explore our collection of photos showcasing the beauty of the underwater world.</p>
       <a href="Photos/photos.html">View Photos</a>
     </section>
+
+    <section id="aid-program">
+      <h2>Aid Program</h2>
+      <p>With our aid program we plan on saving more than 10 endangered marine species around the world.</p>
+    </section>
+
+    <section id="subscription-form">
+      <h2>How to help?</h2>
+      <p>The best way of helping is sharing and subscribing to the program. By subscribing you can make donations and have direct access to our most recent news. </p>
+      <form id="subscriptionForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="button" onclick="validateAndRegister()">Subscribe</button>
+      </form>
+    </section>
   </div>
 
+  <script src="subscription.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   <script src="Other pages/Javascript/subscription.js"></script>
