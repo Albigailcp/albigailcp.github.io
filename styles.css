@@ -1,14 +1,16 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #fff, #3498db);
+    background: linear-gradient(to bottom, #515fba,#000000);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
+    align-self: center;
   }
   
   .container {
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 5%;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,18 +18,20 @@ body {
   }
   
   header {
-    background-color: #3498db;
+    background-color: #6c7ad9;
     color: #fff;
     padding: 15px;
     text-align: center;
   }
+
+
   
   #siteTitle {
     margin: 0;
   }
   
   header {
-    background-color: #3498db;
+    background-color: #6c7ad9;
     color: #fff;
     padding: 15px;
     text-align: center;
@@ -73,17 +77,17 @@ body {
   }
   
   a {
-    color: #3498db;
+    color: #6c7ad9;
     text-decoration: none;
     transition: color 0.3s;
   }
   
   a:hover {
-    color: #2076b4;
+    color: #6c7ad9;
   }
   
   button {
-    background-color: #3498db;
+    background-color: #6c7ad9;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -94,13 +98,13 @@ body {
   }
   
   button:hover {
-    background-color: #2076b4;
+    background-color: #6c7ad9;
   }
   
   form {
     margin-top: 20px;
   }
-  
+
   label {
     display: block;
     margin-bottom: 5px;
@@ -114,4 +118,30 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
+  img{
+    margin-top: 1000px;
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+  img.secondimage{
+    max-width: 100%;
+    height: auto;
+    margin-right: 10%;
+    margin-bottom: 100%;
+    margin-inline-start: auto;
+
+  }
+  img.sea-angel{
+    max-width: 5%;
+    height: auto;
+    margin-top: 476vh;
+
+  }
+  footer{
+    padding: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10929vh;
+    color: #ccc;
+  }
