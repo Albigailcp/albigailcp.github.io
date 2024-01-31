@@ -4,13 +4,17 @@
 }
 
 body {
-    font-family: 'Old English Text MT', sans-serif;
+    font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #515fba,#000000);
     margin: 0;
     padding: 0;
     height: auto;
     align-self: center;
   }
+
+h1,h2,h3 {
+    font-family: 'Old English Text MT', sans-serif;
+}
   
   .container {
     max-width: 800px;
