@@ -1,5 +1,4 @@
 
-
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #515fba,#000000);
@@ -10,7 +9,7 @@ body {
   }
 
 h1,h2,h3 {
-    font-family: 'Old English Text MT', sans-serif;
+    font-style: oblique;
 }
   
   .container {
